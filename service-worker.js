@@ -1,7 +1,5 @@
 "use strict";
 
-consol.log('WORKER: executing.');
-
 var cacheVersion = 1;
 var currentCache = {
   offline: 'offline-cache' + cacheVersion
