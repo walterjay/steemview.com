@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 var cacheVersion = 1;
 var currentCache = {
