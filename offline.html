@@ -29,9 +29,12 @@
 </head>
 <body>
 <h1>Welcome to steemview.com</h1>
+
+<img src="assets/dino.png" alt="Dino" align="middle">
+
 <h3>It looks like you are having trouble with your internet connection, luckily we loaded all the important news for you :</h3>
 
-
+<!-- FOr full post
 <template id="full-post">
     <div class="steemit-full-post uk-margin-bottom">
         <article class="uk-article uk-text-left">
@@ -50,8 +53,6 @@
     </div>
 </template>
 
-<div id="offlineTrending"></div>
-
 <script>
   steemitWidgets.fullPost({
 	element: 'offlineFullPost',
@@ -60,8 +61,12 @@
   });
 </script>
 
+-->
+
+<div id="offlineTrending"></div>
+
 <script>
-  steemitWidgets.trending({
+  steemitWidgets.hot({
     element: 'offlineTrending',
     user: 'walterjay',
     limit: 6,
