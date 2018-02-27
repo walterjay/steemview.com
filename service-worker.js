@@ -18,6 +18,7 @@ this.addEventListener('install', event => {
 		  'https://mktcode.github.io/steemit-widgets/assets/js/steemit-widgets.min.js',
 		  'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js',
 		  'assets/ico/favicon.ico',
+		  'assets/dino.png'
           offlineUrl
       ]);
     })
