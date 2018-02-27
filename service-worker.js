@@ -10,6 +10,14 @@ this.addEventListener('install', event => {
   event.waitUntil(
     caches.open(currentCache.offline).then(function(cache) {
       return cache.addAll([
+		  'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.35/css/uikit.min.css',
+		  'https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css',
+		  'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.35/js/uikit.min.js',
+		  'https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.35/js/uikit-icons.min.js',
+		  'https://cdn.steemjs.com/lib/latest/steem.min.js',
+		  'https://mktcode.github.io/steemit-widgets/assets/js/steemit-widgets.min.js',
+		  'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js',
+		  'assets/ico/favicon.ico',
           offlineUrl
       ]);
     })
