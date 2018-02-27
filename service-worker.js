@@ -1,5 +1,7 @@
 "use strict";
 
+consol.log('WORKER: executing.');
+
 var cacheVersion = 1;
 var currentCache = {
   offline: 'offline-cache' + cacheVersion
@@ -10,7 +12,6 @@ this.addEventListener('install', event => {
   event.waitUntil(
     caches.open(currentCache.offline).then(function(cache) {
       return cache.addAll([
-          './img/offline.svg',
           offlineUrl
       ]);
     })
